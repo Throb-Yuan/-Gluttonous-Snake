@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>标题</title>
+  <style>
+    .map {
+      width: 800px;
+      height: 600px;
+      background-color: #cccccc;
+      position: relative;
+      top: 0px;
+      left: 0px;
+    }
+  </style>
+</head>
+<body>
+<div class="map" id="map"></div>
+<script src="Food.js"></script>
+<script src="Snake.js"></script>
+<script src="Game.js"></script>
+<script>
+  //获取地图对象.
+  var map = document.getElementById("map");
+
+
+  //创建一个游戏控制器对象.
+  var game1 = new Game(map); //有蛇有食物了
+  //调用游戏控制器的开始游戏方法
+  game1.startGame();  //
+
+
+
+
+
+
+
+
+
+
+
+
+//  //根据构造函数实例化一个食物对象
+//  var f1 = new Food();
+//  //调用食物对象的显示方法.
+//  f1.render(map);
+//
+//
+//  //根据蛇构造函数实例化一个蛇对象.
+//  var snake1 = new Snake();
+//  //调用蛇对象的显示方法.
+//  snake1.render(map);
+
+
+
+
+</script>
+</body>
+</html>
